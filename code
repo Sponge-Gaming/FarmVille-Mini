@@ -948,13 +948,14 @@ var sketchProc = function(processingInstance) {
 				textSize(25);
 				textFont(createFont("century"));
 				text("Version 0.0.1",90,height-20);
+			 
 			}
 		};
 		mousePressed = function() {
 
 		};
-		}
-		}; // Get the canvas that Processing-js will use
+	}
+}; // Get the canvas that Processing-js will use
 var canvas = document.getElementById("mycanvas");
 // Pass the function sketchProc (defined in myCode.js) to Processing's constructor.
 var processingInstance = new Processing(canvas, sketchProc);
