@@ -3,7 +3,7 @@ var sketchProc = function(processingInstance) {
 		size(800, 600);
 		frameRate(30);
 		// ProgramCodeGoesHere
-		var pg = 3;
+		var pg = 1;
 		//pages:
 		/*
 		1: start;
